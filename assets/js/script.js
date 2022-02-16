@@ -3,7 +3,7 @@
   const hoursElement = document.getElementById('hours');
   const minutesElement = document.getElementById('minutes');
   const secondsElement = document.getElementById('seconds');
-  const countDownDate = new Date('December 31, 2023 00:00:00').getTime();
+  const countDownDate = new Date(new Date().getFullYear(), 11, 31).getTime();
   const Countdown = setInterval(function() {
     let now = new Date().getTime();
     let timeLeft = countDownDate - now;
