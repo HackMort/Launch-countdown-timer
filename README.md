@@ -29,8 +29,8 @@ Users should be able to:
 
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://hack-countdown-timer.netlify.app/)
+- Solution URL: [Solution](https://your-solution-url.com)
+- Live Site URL: [Live Demo](https://hack-countdown-timer.netlify.app/)
 
 ## My process
 
