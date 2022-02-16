@@ -29,15 +29,14 @@ Users should be able to:
 
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/launch-countdown-timer-vanilla-js-Ju53v3X_p)
+- Live Site URL: [Live Demo](https://hack-countdown-timer.netlify.app/)
 
 ## My process
 
 ### Built with
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
 - Vanilla JavaScript
