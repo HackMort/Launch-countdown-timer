@@ -142,9 +142,11 @@ body::after {
   background-color: hsl(var(--clr-dark));
   border-radius: 50%;
   top: 47%;
-  left: -2px;
   height: 6px;
   width: 6px;
+}
+.countdown-item-number::before {
+  left: -2px;
 }
 .countdown-item-number::after {
   left: auto;
@@ -240,5 +242,16 @@ body::after {
     font-size: 4rem;
     height: 125px;
     margin-bottom: 2rem;
+  }
+  .countdown-item-number::before,
+  .countdown-item-number::after {
+    height: 8px;
+    width: 8px;
+  }
+  .countdown-item-number::before {
+    left: -4px;
+  }
+  .countdown-item-number::after {
+    right: -4px;
   }
 }
