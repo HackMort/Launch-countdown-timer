@@ -12,12 +12,19 @@
 /* Generic Styles */
 body {
   position: relative;
-  background: linear-gradient(180deg, #1D1E28 0.12%, #261C2D 94.84%, #261A2D 100%);
+  /* background: linear-gradient(180deg, #1D1E28 0.12%, #261C2D 94.84%, #261A2D 100%); */
   font-family: var(--ff-red-hat);
   font-size: 14px;
   font-weight: 700;
 }
-body::before {
+body {
+  background: hsl(235, 16%, 14%);
+  background-image: url(../images/bg-stars.svg), url(../images/pattern-hills.svg);
+  background-position: center bottom, center bottom;
+  background-repeat: repeat, no-repeat;
+  background-size: contain;
+  }
+/* body::before {
   content: '';
   position: absolute;
   top: 0;
@@ -44,6 +51,7 @@ body::after {
   background-position: right;
   z-index: -1;
 }
+ */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -189,6 +197,12 @@ body::after {
 .social-link:hover path,
 .social-link:focus path {
   fill: hsl(var(--clr-soft-red));
+}
+@media screen and (max-width: 526px) {
+  body {
+    background-size: auto;
+    background-position: center bottom, -850px bottom;
+  }
 }
 @media screen and (min-width: 40rem) {
   body::after {
