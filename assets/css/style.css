@@ -199,9 +199,9 @@ body::after {
 }
 @media screen and (min-width: 75rem) {
   .countdown-item-number {
-    box-shadow: 0px -12px 1px 0px hsl(var(--clr-dark));
-    -webkit-box-shadow: 0px -12px 1px 0px hsl(var(--clr-dark));
-    -moz-box-shadow: 0px -12px 1px 0px hsl(var(--clr-dark));
+    box-shadow: 0px -10px 1px 0px hsl(var(--clr-dark));
+    -webkit-box-shadow: 0px -10px 1px 0px hsl(var(--clr-dark));
+    -moz-box-shadow: 0px -10px 1px 0px hsl(var(--clr-dark));
     font-size: 4rem;
     height: 125px;
     margin-bottom: 2rem;
