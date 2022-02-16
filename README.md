@@ -29,7 +29,7 @@ Users should be able to:
 
 
 ### Links
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/launch-countdown-timer-vanilla-js-Ju53v3X_p)
 - Live Site URL: [Live Demo](https://hack-countdown-timer.netlify.app/)
 
 ## My process
