@@ -56,7 +56,7 @@ body {
 .text-dark {
   color: hsl(var(--clr-dark));
 }
-/* Custom Styles */
+/** Custom Styles **/
 .section {
   padding: 1.5rem;
 }
